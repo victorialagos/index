@@ -1,0 +1,100 @@
+.encabezado{ background-color: #4F000F; width: 60%; margin-left: 20%; margin-right: 20%; display: flex;
+				box-sizing: border-box; }
+.menu{ background-color: grey;  width: 100%; }
+.infop{ font-family: verdana; font-size: 25px;}
+.presp{ font-family: verdana; font-size: 20px; color: grey;}
+.pres{ height: 80px; width: 60%; background-color: grey; margin-left: 20%; margin-right: 20%; color: white;}
+.pres:hover{ height:200px; color: black; background-color: #4F000F;  }
+
+
+a{ color: #4F000F; font-family: verdana; font-size: 30px; justify-content: space-between; width: 100%;
+	padding: 30px; background-color: grey;}
+a:hover{ color: grey; background-color: #4F000F; }
+a:active{color: #4F000F;}
+li{ display: inline-block; }
+p{font-family: verdana; font-size: 20px; color: grey;}
+
+h2{ color: white; }
+h3{ color: grey; }
+img{ width: 50%; height: 50%; text-align: center;}
+.articulos{ width: 60%; margin-left: 20%; margin-right: 20%; }
+
+body{ background-color: grey;}
+
+#estudios{ background color: #4F000F; margin-top: 35px; display: inline-flex; justify-content: space-between; width: 100%;}
+#premios{ background color: #4F000F; margin-top: 35px; display: inline-flex; justify-content: space-between; width: 100%;}
+#habilidades{ background color: #4F000F; margin-top: 35px; display: inline-flex; justify-content: space-between; width: 100%;}
+#trabajos{ background color: #4F000F; margin-top: 35px; display: inline-flex; justify-content: space-between; width: 100%;}
+
+
+
+
+.infoestudios{width: 50%;}
+.infohabilidades{width: 50%;}
+.infopremios{width: 50%;}
+.infotrabajos{width: 50%;}
+
+.imginfos{ width: 50%; height: 50%;}
+.imginfos:hover{ width: 60%; height: 60%;}
+.articulos{ flex-direction: column; background-color: #4F000F; height: 90%;} 
+.volverainicio{ text-align: center; width: 100%; margin-top: 25px; }
+.volver{ text-decoration: none; color: #4F000F; padding: 10px; font-size: 15px;  }
+
+
+
+
+
+
+
+/*Media Queries*/
+/*Xl*/
+@media screen and (min-width: 1201px){
+
+}
+/*Lg*/
+@media screen and (min-width: 960px) and (max-width: 1200px) {.presp{ font-family: verdana; font-size: 15px;}
+.pres{ height: 200px; width: 60%; background-color: white; margin-left: 20%; margin-right: 20%; color: white;}
+li{ display: flex; flex-wrap: wrap; }
+.menu{ display: flex; height: 500px; }
+a{ color: pink; font-family: verdana; font-size: 30px;  width: 100%;
+	padding: 30px; background-color: white;}
+a:hover{ color: white; background-color: pink; }
+a:active{color: pink;}
+
+#estudios{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#premios{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#habilidades{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#trabajos{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+}
+/*Md*/
+@media screen and (min-width: 600px) and (max-width: 959px) {
+.presp{ font-family: verdana; font-size: 15px;}
+.pres{ height: 200px; width: 60%; background-color: white; margin-left: 20%; margin-right: 20%; color: white;}
+li{ display: flex; flex-wrap: wrap; }
+.menu{ display: flex; height: 500px; }
+a{ color: pink; font-family: verdana; font-size: 30px;  width: 100%;
+	padding: 30px; background-color: white;}
+a:hover{ color: white; background-color: pink; }
+a:active{color: pink;}
+
+#estudios{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#premios{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#habilidades{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#trabajos{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+}
+/*Sm*/
+@media screen and (min-width: 0px) and (max-width: 599px) {
+.presp{ font-family: verdana; font-size: 15px;}
+.pres{ height: 200px; width: 60%; background-color: white; margin-left: 20%; margin-right: 20%; color: white;}
+li{ display: flex; flex-wrap: wrap; }
+.menu{ display: flex; height: 500px; }
+a{ color: pink; font-family: verdana; font-size: 30px; width: 100%;
+	padding: 30px; background-color: white;}
+a:hover{ color: white; background-color: pink; }
+a:active{color: pink;}
+
+#estudios{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#premios{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#habilidades{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+#trabajos{ background color: pink; margin-top: 35px; flex-direction: column; flex-wrap: wrap; width: 100%;}
+}
